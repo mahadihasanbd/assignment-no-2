@@ -216,8 +216,8 @@ nav {
   
  
   .image-wrapper img {
-    width: 340px ;
-    height:  400px;
+    width:100%;
+    height:  100%;
     object-fit: cover; 
     border-radius: 16px;
     
@@ -225,21 +225,100 @@ nav {
   
  
   .image-wrapper h3 {
-    margin: 20px;
+    margin: 20px 0px 30px 0px;
     text-align: center;
     font-size: 18px; 
     font-weight: 500;
   }
-  
 
-@media (max-width: 576px) {
-    nav {
-      display: block;
-      width: 100%;
-      padding: 10px;
-      height: auto;
-      text-align: center;
-    }
+.main-part-two {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.second-text-container {
+    padding-right: 0px auto;
+}
+.second-text-container h2 {
+    text-align: right;
+    padding-right: 300px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+}
+.sec-titletext-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.second-text-container >p {
+    width: 350px;
+    height: 90px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 300px;
+}
+.second-img-container { 
+  position: relative; 
     
+}
+.img-item-one {
+   width: 635px;
+   height: 650px;
+
+}
+.img-item-two {
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+    width: 318.5px;
+    height: 365.083px;
+
+
+}
+.last-main-design {
+    width:100%;
+    max-width: 400px;
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 50px;
+    text-align: center;
   }
   
+  .banner-logo-button {
+    width: 243px;
+    height: 80px;
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffafa;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-logo-button:hover {
+    background-color:#ff42a5;
+    color: #FFF;
+  }
+  
+  .banner-logo-button img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+  
+
