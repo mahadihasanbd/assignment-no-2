@@ -61,8 +61,11 @@ nav {
     padding: 17px 20px 18px 0px ;
     
 }
-.follow-icon img {
-    padding-right: 15px;
+.follow-icon a {
+    width: 20px;
+    height: 20px;
+    color: #F61C0D;
+    padding-right: 20px;
 }
 .main-container {
     width: 5927px auto;
@@ -366,5 +369,41 @@ nav {
     font-weight: 600;
    
   }
-  
+  .footer-icon-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+    
+  }
+ .footer-icon-div a {
+    font-size: 40px;
+ }
+  .footer-icon-div  a  i{
+    padding-right:45px ;
+    color: #FFF;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.copyright ul {
+    display: flex;
+}
+.copyright ul li {
+    list-style: none;
+    margin-right: 40px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.copyright h3 {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
 
